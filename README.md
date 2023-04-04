@@ -1,2 +1,2 @@
 # GuessFlagGame
-<image
+<img src="Simulator Screen Shot - iphone 12 pro max - 2023-04-04 at 15.10.14.png" alt="Girl in a jacket" width="500" height="600">
