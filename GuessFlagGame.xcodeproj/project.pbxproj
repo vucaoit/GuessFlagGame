@@ -11,6 +11,8 @@
 		9D32A13E29DC010400CBD512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A13D29DC010400CBD512 /* ContentView.swift */; };
 		9D32A14029DC010D00CBD512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D32A13F29DC010D00CBD512 /* Assets.xcassets */; };
 		9D32A14329DC010D00CBD512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D32A14229DC010D00CBD512 /* Preview Assets.xcassets */; };
+		9DF00A0529DD23160041C8DC /* FlagImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF00A0429DD23160041C8DC /* FlagImageView.swift */; };
+		9DF00A0A29DD25EA0041C8DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF00A0929DD25EA0041C8DC /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9D32A13D29DC010400CBD512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D32A13F29DC010D00CBD512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D32A14229DC010D00CBD512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DF00A0429DD23160041C8DC /* FlagImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImageView.swift; sourceTree = "<group>"; };
+		9DF00A0929DD25EA0041C8DC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		9D32A13A29DC010400CBD512 /* GuessFlagGame */ = {
 			isa = PBXGroup;
 			children = (
+				9DF00A0829DD25D30041C8DC /* extension */,
+				9DF00A0329DD22FC0041C8DC /* Component */,
 				9D32A13B29DC010400CBD512 /* GuessFlagGameApp.swift */,
 				9D32A13D29DC010400CBD512 /* ContentView.swift */,
 				9D32A13F29DC010D00CBD512 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				9D32A14229DC010D00CBD512 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DF00A0329DD22FC0041C8DC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9DF00A0429DD23160041C8DC /* FlagImageView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		9DF00A0829DD25D30041C8DC /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				9DF00A0929DD25EA0041C8DC /* Extension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +161,8 @@
 			files = (
 				9D32A13E29DC010400CBD512 /* ContentView.swift in Sources */,
 				9D32A13C29DC010400CBD512 /* GuessFlagGameApp.swift in Sources */,
+				9DF00A0529DD23160041C8DC /* FlagImageView.swift in Sources */,
+				9DF00A0A29DD25EA0041C8DC /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

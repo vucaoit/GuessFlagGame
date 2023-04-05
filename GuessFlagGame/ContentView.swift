@@ -42,25 +42,7 @@ struct ContentView: View {
                 .foregroundColor(.secondary)
                 .font(.title.bold())
         }
-        ForEach(0..<3) { number in
-            Button {
-                flagTapped(number)
-            } label: {
-                Image(countries[number].lowercased())
-                    .renderingMode(.original)
-                    .shadow(radius: 5)
-            }
-        }
-    }
-    func flagTapped(_ number: Int) {
-        if number == correctAnswer {
-            scoreTitle = "Correct"
-            self.score += 1
-        } else {
-            scoreTitle = "Wrong"
-        }
-        
-        showingScore = true
+        FlagImageView(correctAnswer: $correctAnswer, countries: $countries, scoreTitle: $scoreTitle, showingScore: $showingScore, score: $score)
     }
     func askQuestion() {
         countries.shuffle()
