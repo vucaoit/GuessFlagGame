@@ -13,6 +13,7 @@
 		9D32A14329DC010D00CBD512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D32A14229DC010D00CBD512 /* Preview Assets.xcassets */; };
 		9DF00A0529DD23160041C8DC /* FlagImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF00A0429DD23160041C8DC /* FlagImageView.swift */; };
 		9DF00A0A29DD25EA0041C8DC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF00A0929DD25EA0041C8DC /* Extension.swift */; };
+		9DF00A0C29DD286C0041C8DC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF00A0B29DD286C0041C8DC /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9D32A14229DC010D00CBD512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DF00A0429DD23160041C8DC /* FlagImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImageView.swift; sourceTree = "<group>"; };
 		9DF00A0929DD25EA0041C8DC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9DF00A0B29DD286C0041C8DC /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				9DF00A0429DD23160041C8DC /* FlagImageView.swift */,
+				9DF00A0B29DD286C0041C8DC /* QuestionView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF00A0C29DD286C0041C8DC /* QuestionView.swift in Sources */,
 				9D32A13E29DC010400CBD512 /* ContentView.swift in Sources */,
 				9D32A13C29DC010400CBD512 /* GuessFlagGameApp.swift in Sources */,
 				9DF00A0529DD23160041C8DC /* FlagImageView.swift in Sources */,
